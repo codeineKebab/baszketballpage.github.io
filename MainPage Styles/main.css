@@ -1,0 +1,75 @@
+main {
+    background-color: #06113C;
+    margin: 0;
+    color: #EEEEEE;
+    padding: 30px;
+}
+
+main > section > p {
+    margin: 0;
+}
+
+.hP {
+    font-size:30px;
+}
+
+.nP {
+    font-size: 20px;
+}
+
+.topPlacement {
+    width: 150px;
+    background-color: #FF8C32;
+}
+
+#tier-list {
+    display: flex;
+    justify-content: center;
+    align-items: end;
+}
+#tier-list > div {
+    margin: 0 10px;
+    text-align: center;
+}
+#tier-list p {
+    transform: translate(0, -50px);
+}
+
+#top1 {
+    height: 200px;
+}
+
+#top2 {
+    height: 150px;  
+}
+
+#top3 {
+    height: 100px; 
+}
+
+.Pbm {
+    padding: 20px 0;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.shoe-presentation {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    border-radius: 50px;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 30px;
+    margin: 50px;
+
+    font-size: 20px;
+}
+.shoe-presentation > p {
+    margin: 0 30px;
+}
+
+.shoe-presentation > img {
+    width: 500px;
+    border-radius: 20px;
+}

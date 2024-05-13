@@ -1,0 +1,16 @@
+footer {
+    display: flex;
+    justify-content: space-around;
+    text-wrap: wrap;    
+    background-color: #DDDDDD;
+    color: #06113C;
+}
+footer > div > p {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+footer > div > p:first-child {
+    font-size: 110%;
+}

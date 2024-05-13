@@ -1,0 +1,39 @@
+/*  */
+body,head {
+    margin: 0;
+    height: 100%;
+    background-color: #06113C;
+}
+
+/*  */
+main {
+    background-color: #06113C;
+    padding: 50px;
+}
+main > div {
+    display: flex;
+    justify-content: center;
+}
+
+table {
+    border: 5px dashed #DDDDDD;
+    color: #DDDDDD;
+    font-size: 40px;
+}
+td {
+    border: 5px solid #DDDDDD;
+    padding: 15px;
+}
+
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
+
+.bigP {
+    font-size: 60px;
+    color: #DDDDDD;
+    text-align: center;
+}
